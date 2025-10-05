@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy
+huggingface_hub
+requests
+plotly
+matplotlib
+pydantic
+python-dotenv
+tqdm
+rich
+SQLAlchemy
+transformers
+
+

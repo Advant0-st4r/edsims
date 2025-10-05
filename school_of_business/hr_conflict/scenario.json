@@ -1,0 +1,23 @@
+{
+  "description": "Two employees are in conflict over project credit. You must mediate fairly.",
+  "initial_state": {
+    "morale": 50,
+    "trust": 50,
+    "risk": 0
+  },
+  "actions": [
+    {
+      "id": "a1",
+      "text": "Meet both employees together to hear both sides",
+      "effects": {"morale": 5, "trust": 10, "risk": -5},
+      "result_text": "Both employees appreciate your fairness."
+    },
+    {
+      "id": "a2",
+      "text": "Side with one employee immediately",
+      "effects": {"morale": -10, "trust": -20, "risk": 15},
+      "result_text": "The other employee feels unheard and morale drops."
+    }
+  ]
+}
+
